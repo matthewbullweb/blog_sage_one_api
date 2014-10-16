@@ -6372,3 +6372,3851 @@ Served asset /sage.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 14:10:30 +0100
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 14:39:26 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8.0ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 14:39:26 +0100
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 14:39:26 +0100
+Served asset /articles.css - 200 OK (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 14:39:26 +0100
+Served asset /sage.css - 200 OK (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 14:39:26 +0100
+Served asset /welcome.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 14:39:26 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 14:39:26 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 14:39:26 +0100
+Served asset /articles.js - 200 OK (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 14:39:26 +0100
+Served asset /sage.js - 200 OK (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 14:39:26 +0100
+Served asset /welcome.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 14:39:26 +0100
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 14:39:28 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14.0ms (Views: 8.0ms | ActiveRecord: 1.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateArticles (20141015150446)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 14:43:57 +0100
+Connecting to database specified by database.yml
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 62.0ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 14:43:57 +0100
+Served asset /articles.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 14:43:58 +0100
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 14:43:58 +0100
+Served asset /sage.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 14:43:58 +0100
+Served asset /welcome.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 14:43:58 +0100
+Served asset /jquery.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 14:43:58 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 14:43:58 +0100
+Served asset /sage.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 14:43:58 +0100
+Served asset /articles.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 14:43:58 +0100
+Served asset /welcome.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 14:43:58 +0100
+Served asset /application.js - 304 Not Modified (29ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 14:43:59 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 79.0ms (Views: 11.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 14:44:00 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 14:44:00 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 14:44:00 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 14:44:00 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 14:44:00 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 14:44:00 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 14:44:00 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 14:44:00 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 14:44:00 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 14:44:00 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2014-10-16 14:44:02 +0100
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 32.0ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 14:44:02 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 14:44:02 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 14:44:02 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 14:44:02 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 14:44:02 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 14:44:02 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 14:44:02 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 14:44:02 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 14:44:03 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 14:44:03 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateArticles (20141015150446)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 15:16:11 +0100
+Connecting to database specified by database.yml
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Warning. Error encountered while saving cache c:/sites/blog/tmp/cache/sass/579b76de82b7cde8cfb2cf7847f52d3f32ff9f49/articles.css.scssc: can't dump anonymous class #<Class:0x31a4d08>
+Compiled articles.css  (33ms)  (pid 5480)
+Warning. Error encountered while saving cache c:/sites/blog/tmp/cache/sass/579b76de82b7cde8cfb2cf7847f52d3f32ff9f49/sage.css.scssc: can't dump anonymous class #<Class:0x31a4d08>
+Compiled sage.css  (0ms)  (pid 5480)
+Warning. Error encountered while saving cache c:/sites/blog/tmp/cache/sass/579b76de82b7cde8cfb2cf7847f52d3f32ff9f49/welcome.css.scssc: can't dump anonymous class #<Class:0x31a4d08>
+Compiled welcome.css  (0ms)  (pid 5480)
+Compiled application.css  (66ms)  (pid 5480)
+Compiled jquery.js  (3ms)  (pid 5480)
+Compiled jquery_ujs.js  (0ms)  (pid 5480)
+Compiled articles.js  (438ms)  (pid 5480)
+Compiled sage.js  (414ms)  (pid 5480)
+Compiled welcome.js  (431ms)  (pid 5480)
+Compiled application.js  (1396ms)  (pid 5480)
+Completed 200 OK in 1564.9ms (Views: 1564.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:16:13 +0100
+Served asset /sage.css - 200 OK (4ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:16:13 +0100
+Served asset /welcome.css - 200 OK (1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:16:13 +0100
+Served asset /articles.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:16:13 +0100
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:16:13 +0100
+Served asset /jquery.js - 200 OK (24ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:16:13 +0100
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:16:13 +0100
+Served asset /articles.js - 200 OK (4ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:16:13 +0100
+Served asset /sage.js - 200 OK (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:16:13 +0100
+Served asset /welcome.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:16:13 +0100
+Served asset /application.js - 200 OK (25ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:16:14 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 77.0ms (Views: 12.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 15:24:55 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7.0ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:24:55 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:24:55 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:24:55 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:24:55 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:24:55 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:24:55 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:24:55 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:24:55 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:24:55 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:24:55 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:24:57 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 23.0ms (Views: 14.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:24:57 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:24:57 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:24:57 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:24:57 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:24:57 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:24:57 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:24:57 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:24:57 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:24:57 +0100
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:24:57 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2014-10-16 15:25:08 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered articles/edit.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 30.0ms (Views: 27.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:08 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:09 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:09 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:09 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:09 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:09 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:09 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:09 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:09 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:09 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:25:12 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 12.0ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:12 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:12 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:12 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:12 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:12 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:12 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:13 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:13 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:13 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:13 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/articles/2/edit" for 127.0.0.1 at 2014-10-16 15:25:14 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered articles/edit.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 29.0ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:14 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:14 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:14 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:14 +0100
+Served asset /welcome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:14 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:14 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:14 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:14 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:15 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:15 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:25:16 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 22.0ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:17 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:17 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:17 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:25:17 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:17 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:17 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:17 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:17 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:17 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:25:17 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/2/edit" for 127.0.0.1 at 2014-10-16 15:26:21 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered articles/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 16.0ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:21 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:21 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:21 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:21 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:21 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:21 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:21 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:21 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:21 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:21 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:26:23 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 19.0ms (Views: 16.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:23 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:23 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:23 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:24 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:24 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:24 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:24 +0100
+Served asset /articles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:24 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:24 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:24 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2014-10-16 15:26:25 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered articles/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 20.0ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:25 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:26 +0100
+Served asset /articles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:26 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:26 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:26 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:26 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:26 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:26 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:26 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:26 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2014-10-16 15:26:29 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered articles/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 18.0ms (Views: 16.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:29 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:29 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:29 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:26:29 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:29 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:29 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:30 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:30 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:30 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:26:30 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:29:24 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 16.0ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:24 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:24 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:24 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:24 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:24 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:24 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:24 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:24 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:24 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:24 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2014-10-16 15:29:27 +0100
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (4.0ms)
+  Rendered articles/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 26.0ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:27 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:27 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:27 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:27 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:27 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:27 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:27 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:28 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:28 +0100
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:28 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:29:29 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 13.0ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:30 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:30 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:30 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:30 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:30 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:30 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:30 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:30 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:30 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:30 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2014-10-16 15:29:32 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered articles/_form.html.erb (4.0ms)
+  Rendered articles/edit.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 23.0ms (Views: 21.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:32 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:32 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:32 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:29:32 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:32 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:32 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:32 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:32 +0100
+Served asset /sage.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:32 +0100
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:29:32 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2014-10-16 15:31:03 +0100
+Connecting to database specified by database.yml
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered articles/_form.html.erb (8.0ms)
+  Rendered articles/edit.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 98.0ms (Views: 57.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/articles/" for 127.0.0.1 at 2014-10-16 15:32:40 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 19.0ms (Views: 16.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-10-16 15:32:40 +0100
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-10-16 15:32:40 +0100
+Served asset /application.js - 200 OK (26ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 15:32:43 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6.0ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:32:44 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7.0ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/fdfad" for 127.0.0.1 at 2014-10-16 15:32:47 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"fdfad"}
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "fdfad"]]
+Completed 404 Not Found in 2.0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Article with id=fdfad):
+  app/controllers/articles_controller.rb:25:in `show'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/articles1" for 127.0.0.1 at 2014-10-16 15:33:10 +0100
+
+ActionController::RoutingError (No route matches [GET] "/articles1"):
+  actionpack (3.2.19) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.19) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.19) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.19) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.19) lib/rails/engine.rb:484:in `call'
+  railties (3.2.19) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.19) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 15:33:15 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5.0ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:33:17 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 25.0ms (Views: 20.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:33:37 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 11.0ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-10-16 15:33:41 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-10-16 15:34:04 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:34:57 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 11.0ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:35:14 +0100
+Connecting to database specified by database.yml
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 121.0ms (Views: 65.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:35:18 +0100
+Served asset /articles.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:35:23 +0100
+Served asset /sage.js - 304 Not Modified (2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:35:47 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 18.0ms (Views: 15.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:35:47 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:35:47 +0100
+Served asset /welcome.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:35:47 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:35:47 +0100
+Served asset /sage.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:35:47 +0100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:35:47 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:35:47 +0100
+Served asset /articles.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:35:47 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:35:47 +0100
+Served asset /welcome.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:35:47 +0100
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:35:51 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:35:51 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:35:51 +0100
+Served asset /sage.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:35:51 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:39:14 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 24.0ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:39:14 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:39:14 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:39:14 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:39:14 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:39:14 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:39:14 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:39:14 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:39:14 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:39:14 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:39:14 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/articles/2" for 127.0.0.1 at 2014-10-16 15:39:25 +0100
+
+AbstractController::ActionNotFound (The action 'destroy' could not be found for ArticlesController):
+  actionpack (3.2.19) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.19) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.19) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.19) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.19) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.19) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.19) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.19) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.19) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.19) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.19) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.19) lib/active_support/callbacks.rb:405:in `_run__756855144__call__668488182__callbacks'
+  activesupport (3.2.19) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.19) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.19) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.19) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.19) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.19) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.19) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.19) lib/rails/engine.rb:484:in `call'
+  railties (3.2.19) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.19) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:39:29 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 14.0ms (Views: 13.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:39:29 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:39:30 +0100
+Served asset /articles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:39:30 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:39:30 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:39:30 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:39:30 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:39:30 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:39:30 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:39:30 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:39:30 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/articles/2" for 127.0.0.1 at 2014-10-16 15:40:24 +0100
+
+AbstractController::ActionNotFound (The action 'destroy' could not be found for ArticlesController):
+  actionpack (3.2.19) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.19) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.19) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.19) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.19) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.19) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.19) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.19) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.19) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.19) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.19) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.19) lib/active_support/callbacks.rb:405:in `_run__756855144__call__668488182__callbacks'
+  activesupport (3.2.19) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.19) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.19) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.19) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.19) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.19) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.19) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.19) lib/rails/engine.rb:484:in `call'
+  railties (3.2.19) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.19) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started DELETE "/articles/2" for 127.0.0.1 at 2014-10-16 15:40:46 +0100
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "id"=>"2"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (7.0ms)[0m  [1mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 2]]
+  [1m[35m (5.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 24.0ms (ActiveRecord: 14.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:40:46 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 12.0ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:40:46 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:40:46 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:40:46 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:40:46 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:40:46 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:40:46 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:40:46 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:40:46 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:40:46 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:40:46 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:42:04 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15.0ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:05 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:05 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:05 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:05 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:05 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:05 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:05 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:05 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:05 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:05 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2014-10-16 15:42:07 +0100
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (15.0ms)
+  Rendered articles/new.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 46.0ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:07 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:07 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:07 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:07 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:07 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:07 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:07 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:07 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:07 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:07 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2014-10-16 15:42:14 +0100
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"A2", "text"=>"dsd"}, "commit"=>"Create Article"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered articles/_form.html.erb (3.0ms)
+  Rendered articles/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 26.0ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:14 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:14 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:14 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:14 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:14 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:14 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:14 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:15 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:15 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:15 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2014-10-16 15:42:23 +0100
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Title", "text"=>"dsd"}, "commit"=>"Create Article"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "articles" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 16 Oct 2014 14:42:23 UTC +00:00], ["text", "dsd"], ["title", "Title"], ["updated_at", Thu, 16 Oct 2014 14:42:23 UTC +00:00]]
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/articles/3
+Completed 302 Found in 14.0ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/articles/3" for 127.0.0.1 at 2014-10-16 15:42:23 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered articles/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14.0ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:23 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:23 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:23 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:23 +0100
+Served asset /welcome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:23 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:23 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:23 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:23 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:24 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:24 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/3/edit" for 127.0.0.1 at 2014-10-16 15:42:29 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered articles/_form.html.erb (3.0ms)
+  Rendered articles/edit.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23.0ms (Views: 19.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:29 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:29 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:29 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:42:29 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:29 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:29 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:29 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:29 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:29 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:42:29 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:42:42 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Article 3", "text"=>"Text 3"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 500 Internal Server Error in 4.0ms
+
+TypeError (can't convert Symbol into String):
+  app/controllers/articles_controller.rb:55:in `article_params'
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:43:23 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Article 3", "text"=>"Text 3"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Completed 500 Internal Server Error in 7.0ms
+
+NoMethodError (private method `update' called for #<Article:0x342fc00>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:44:04 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Article 3", "text"=>"Text 3"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 500 Internal Server Error in 2.0ms
+
+NoMethodError (private method `update' called for #<Article:0x3332280>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:44:16 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Article 3", "text"=>"Text 3"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Completed 500 Internal Server Error in 7.0ms
+
+NoMethodError (private method `update' called for #<Article:0x342b9d0>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:45:07 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Article 3", "text"=>"Text 3"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 500 Internal Server Error in 8.0ms
+
+NoMethodError (private method `update' called for #<Article:0x2b4d258>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:45:25 +0100
+Connecting to database specified by database.yml
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Article 3", "text"=>"Text 3"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Completed 500 Internal Server Error in 59.0ms
+
+NoMethodError (private method `update' called for #<Article:0x332a2e8>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:46:20 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Article 3", "text"=>"Text 3"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 500 Internal Server Error in 7.0ms
+
+NoMethodError (private method `update' called for #<Article:0x337b888>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:47:09 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Article 3", "text"=>"Text 3"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Completed 500 Internal Server Error in 7.0ms
+
+TypeError (can't convert Symbol into String):
+  app/controllers/articles_controller.rb:60:in `article_params'
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:48:08 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Article 3", "text"=>"Text 3"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 500 Internal Server Error in 31.0ms
+
+NoMethodError (private method `update' called for #<Article:0x3382350>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:48:24 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Article 3", "text"=>"Text 3"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Completed 500 Internal Server Error in 8.0ms
+
+NameError (undefined local variable or method `article_params' for #<ArticlesController:0x33788a0>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:48:58 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Article 3", "text"=>"Text 3"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 500 Internal Server Error in 6.0ms
+
+TypeError (can't convert Symbol into String):
+  app/controllers/articles_controller.rb:44:in `article_params'
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:49:17 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Article 3", "text"=>"Text 3"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Completed 500 Internal Server Error in 7.0ms
+
+TypeError (can't convert Symbol into String):
+  app/controllers/articles_controller.rb:44:in `article_params'
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:54:36 +0100
+Connecting to database specified by database.yml
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Article 3", "text"=>"Text 3"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Completed 500 Internal Server Error in 41.0ms
+
+NoMethodError (private method `update' called for #<Article:0x331cbd8>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:54:41 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 67.0ms (Views: 64.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:41 +0100
+Served asset /articles.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:41 +0100
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:41 +0100
+Served asset /sage.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:41 +0100
+Served asset /welcome.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:41 +0100
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:41 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:41 +0100
+Served asset /articles.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:41 +0100
+Served asset /sage.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:41 +0100
+Served asset /welcome.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:41 +0100
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2014-10-16 15:54:44 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered articles/_form.html.erb (9.0ms)
+  Rendered articles/edit.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 51.0ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:44 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:44 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:44 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:44 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:44 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:44 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:44 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:44 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:44 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:44 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:54:46 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 17.0ms (Views: 16.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:46 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:47 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:47 +0100
+Served asset /sage.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:47 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:47 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:47 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:47 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:47 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:47 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:47 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/3/edit" for 127.0.0.1 at 2014-10-16 15:54:50 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered articles/_form.html.erb (3.0ms)
+  Rendered articles/edit.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22.0ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:50 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:50 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:50 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:54:50 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:50 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:50 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:50 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:51 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:51 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:54:51 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:54:52 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Title", "text"=>"dsd"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 500 Internal Server Error in 2.0ms
+
+NoMethodError (private method `update' called for #<Article:0x325c788>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:55:35 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Title", "text"=>"dsd"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Completed 500 Internal Server Error in 11.0ms
+
+NoMethodError (private method `update' called for #<Article:0x32ed850>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:57:25 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Title", "text"=>"dsd"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 500 Internal Server Error in 8.0ms
+
+NoMethodError (private method `update' called for #<Article:0x3351d98>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:57:38 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Warning. Error encountered while saving cache c:/sites/blog/tmp/cache/sass/579b76de82b7cde8cfb2cf7847f52d3f32ff9f49/articles_controller.css.scssc: can't dump anonymous class #<Class:0x299d780>
+Compiled articles_controller.css  (6ms)  (pid 8164)
+Compiled application.css  (47ms)  (pid 8164)
+Compiled articles_controller.js  (453ms)  (pid 8164)
+Compiled application.js  (476ms)  (pid 8164)
+Completed 200 OK in 644.0ms (Views: 642.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 15:57:39 +0100
+Served asset /articles_controller.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:57:39 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:57:39 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:57:39 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:57:39 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:57:39 +0100
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:57:39 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 15:57:39 +0100
+Served asset /articles_controller.js - 200 OK (4ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:57:39 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:57:39 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:57:39 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:57:40 +0100
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/articles/3/edit" for 127.0.0.1 at 2014-10-16 15:57:44 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered articles/_form.html.erb (3.0ms)
+  Rendered articles/edit.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 14.0ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:57:44 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:57:45 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:57:45 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:57:45 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:57:45 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:57:45 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:57:45 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:57:45 +0100
+Served asset /sage.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:57:45 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:57:45 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:57:47 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Title1", "text"=>"dsd1"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Completed 500 Internal Server Error in 4.0ms
+
+NoMethodError (private method `update' called for #<Article:0x3293130>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+
+
+Started PUT "/articles/3" for 127.0.0.1 at 2014-10-16 15:58:39 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"Title1", "text"=>"dsd1"}, "commit"=>"Update Article", "id"=>"3"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 500 Internal Server Error in 7.0ms
+
+NoMethodError (private method `update' called for #<Article:0x3307038>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:58:43 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 11.0ms (Views: 10.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:43 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:43 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:43 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:43 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:43 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:43 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:43 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:43 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:43 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:43 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:43 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:43 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/articles/3" for 127.0.0.1 at 2014-10-16 15:58:46 +0100
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "id"=>"3"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM "articles" WHERE "articles"."id" = ?  [["id", 3]]
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 18.0ms (ActiveRecord: 15.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:58:46 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26.0ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:46 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:46 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:46 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:46 +0100
+Served asset /sage.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:46 +0100
+Served asset /welcome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:46 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:46 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:46 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:47 +0100
+Served asset /articles_controller.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:47 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:47 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:47 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/articles/1" for 127.0.0.1 at 2014-10-16 15:58:50 +0100
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "id"=>"1"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 1]]
+  [1m[35m (7.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 15.0ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 15:58:50 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12.0ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:50 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:51 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:51 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:51 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:51 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:51 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:51 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:51 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:51 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:51 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:51 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:51 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2014-10-16 15:58:53 +0100
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (7.0ms)
+  Rendered articles/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 37.0ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:53 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:53 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:53 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:53 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:58:53 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:53 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:53 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:54 +0100
+Served asset /articles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:54 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:54 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:54 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:58:54 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2014-10-16 15:59:05 +0100
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"article3", "text"=>"text3"}, "commit"=>"Create Article"}
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "articles" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Thu, 16 Oct 2014 14:59:05 UTC +00:00], ["text", "text3"], ["title", "article3"], ["updated_at", Thu, 16 Oct 2014 14:59:05 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles/4
+Completed 302 Found in 18.0ms (ActiveRecord: 13.0ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2014-10-16 15:59:05 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered articles/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17.0ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:59:05 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:59:05 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 15:59:05 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:59:05 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:59:05 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:59:05 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:59:05 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:59:06 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 15:59:06 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:59:06 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:59:06 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:59:06 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/4/edit" for 127.0.0.1 at 2014-10-16 15:59:10 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered articles/_form.html.erb (3.0ms)
+  Rendered articles/edit.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 20.0ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 15:59:10 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 15:59:10 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 15:59:10 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 15:59:10 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 15:59:10 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 15:59:10 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 15:59:10 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 15:59:10 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 15:59:11 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 15:59:11 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 15:59:11 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 15:59:11 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started PUT "/articles/4" for 127.0.0.1 at 2014-10-16 15:59:15 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"article4", "text"=>"text4"}, "commit"=>"Update Article", "id"=>"4"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "4"]]
+Completed 500 Internal Server Error in 4.0ms
+
+NoMethodError (private method `update' called for #<Article:0x32fbb78>):
+  app/controllers/articles_controller.rb:35:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started PUT "/articles/4" for 127.0.0.1 at 2014-10-16 15:59:58 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"article4", "text"=>"text4"}, "commit"=>"Update Article", "id"=>"4"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "4"]]
+Completed 500 Internal Server Error in 11.0ms
+
+NoMethodError (private method `update' called for #<Article:0x33113d0>):
+  app/controllers/articles_controller.rb:31:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.0ms)
+
+
+Started PUT "/articles/4" for 127.0.0.1 at 2014-10-16 16:03:18 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"article4", "text"=>"text4"}, "commit"=>"Update Article", "id"=>"4"}
+Completed 500 Internal Server Error in 1.0ms
+
+NoMethodError (undefined method `update_attributes' for nil:NilClass):
+  app/controllers/articles_controller.rb:33:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started PUT "/articles/4" for 127.0.0.1 at 2014-10-16 16:03:32 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"article4", "text"=>"text4"}, "commit"=>"Update Article", "id"=>"4"}
+Completed 500 Internal Server Error in 0.0ms
+
+NoMethodError (undefined method `update' for nil:NilClass):
+  app/controllers/articles_controller.rb:33:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started PUT "/articles/4" for 127.0.0.1 at 2014-10-16 16:04:01 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"article4", "text"=>"text4"}, "commit"=>"Update Article", "id"=>"4"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "4"]]
+Completed 500 Internal Server Error in 9.0ms
+
+NoMethodError (private method `update' called for #<Article:0x330ebf8>):
+  app/controllers/articles_controller.rb:34:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started PUT "/articles/4" for 127.0.0.1 at 2014-10-16 16:04:11 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"article4", "text"=>"text4"}, "commit"=>"Update Article", "id"=>"4"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "articles" SET "title" = 'article4', "text" = 'text4', "updated_at" = '2014-10-16 15:04:11.718053' WHERE "articles"."id" = 4
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/articles/4
+Completed 302 Found in 19.0ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2014-10-16 16:04:11 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered articles/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10.0ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:04:11 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:04:11 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:04:11 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:04:11 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:04:11 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:04:11 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:04:12 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:04:12 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:04:12 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:04:12 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:04:12 +0100
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:04:12 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 16:05:40 +0100
+Connecting to database specified by database.yml
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 106.0ms (Views: 67.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:40 +0100
+Served asset /articles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:40 +0100
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:41 +0100
+Served asset /articles_controller.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:41 +0100
+Served asset /sage.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:41 +0100
+Served asset /welcome.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:41 +0100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:41 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:41 +0100
+Served asset /articles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:41 +0100
+Served asset /articles_controller.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:41 +0100
+Served asset /sage.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:41 +0100
+Served asset /welcome.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:41 +0100
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/f" for 127.0.0.1 at 2014-10-16 16:05:45 +0100
+
+ActionController::RoutingError (No route matches [GET] "/f"):
+  actionpack (3.2.19) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.19) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.19) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.19) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.19) lib/rails/engine.rb:484:in `call'
+  railties (3.2.19) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.19) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 16:05:49 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 14.0ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:49 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:49 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:49 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:49 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:49 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:50 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:50 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:50 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:50 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:50 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:50 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:50 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 16:05:52 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 21.0ms (Views: 18.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:52 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:52 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:52 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:52 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:05:52 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:52 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:52 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:53 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:53 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:53 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:53 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:05:53 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2014-10-16 16:06:09 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered articles/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20.0ms (Views: 14.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:09 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:09 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:09 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:09 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:09 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:09 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:09 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:10 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:10 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:10 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:10 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:10 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2014-10-16 16:06:12 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 404 Not Found in 3.0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Article with id=1):
+  app/controllers/articles_controller.rb:26:in `show'
+
+
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2014-10-16 16:06:18 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "2"]]
+Completed 404 Not Found in 3.0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Article with id=2):
+  app/controllers/articles_controller.rb:26:in `show'
+
+
+
+
+Started GET "/articles/3" for 127.0.0.1 at 2014-10-16 16:06:20 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 404 Not Found in 2.0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Article with id=3):
+  app/controllers/articles_controller.rb:26:in `show'
+
+
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2014-10-16 16:06:22 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered articles/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18.0ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:22 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:22 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:22 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:22 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:22 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:22 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:23 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:23 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:23 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:23 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:23 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:23 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 16:06:25 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18.0ms (Views: 16.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:25 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:25 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:25 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:25 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:25 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:25 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:25 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:25 +0100
+Served asset /articles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:25 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:25 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:25 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:26 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2014-10-16 16:06:29 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered articles/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16.0ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:30 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:30 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:30 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:30 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:30 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:30 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:30 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:30 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:30 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:30 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:30 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:30 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/4/edit" for 127.0.0.1 at 2014-10-16 16:06:31 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered articles/_form.html.erb (12.0ms)
+  Rendered articles/edit.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 37.0ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:31 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:32 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:32 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:32 +0100
+Served asset /sage.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:32 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:32 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:32 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:32 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:32 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:32 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:32 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:32 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 16:06:34 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18.0ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:35 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:35 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:35 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:35 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:06:35 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:35 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:35 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:35 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:35 +0100
+Served asset /articles_controller.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:35 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:35 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:06:35 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/4/edit" for 127.0.0.1 at 2014-10-16 16:07:27 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered articles/_form.html.erb (3.0ms)
+  Rendered articles/edit.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 19.0ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:27 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:27 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:27 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:27 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:27 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:27 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:27 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:28 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:28 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:28 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:28 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:28 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/articles/4" for 127.0.0.1 at 2014-10-16 16:07:30 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"article4", "text"=>"text4dd"}, "commit"=>"Update Article", "id"=>"4"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (2.0ms)[0m  [1mUPDATE "articles" SET "text" = 'text4dd', "updated_at" = '2014-10-16 15:07:30.965053' WHERE "articles"."id" = 4[0m
+  [1m[35m (8.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles/4
+Completed 302 Found in 26.0ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2014-10-16 16:07:31 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered articles/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14.0ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:31 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:31 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:31 +0100
+Served asset /articles_controller.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:31 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:31 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:31 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:31 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:31 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:31 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:31 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:31 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:31 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/articles/4/edit" for 127.0.0.1 at 2014-10-16 16:07:34 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered articles/_form.html.erb (3.0ms)
+  Rendered articles/edit.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 23.0ms (Views: 21.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:34 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:34 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:35 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:35 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:35 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:07:35 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:35 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:35 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:35 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:35 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:35 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:07:35 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started PUT "/articles/4" for 127.0.0.1 at 2014-10-16 16:08:24 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for ArticlesController):
+  actionpack (3.2.19) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.19) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.19) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.19) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.19) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.19) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.19) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.19) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.19) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.19) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.19) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.19) lib/active_support/callbacks.rb:405:in `_run__1017415006__call__744373166__callbacks'
+  activesupport (3.2.19) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.19) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.19) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.19) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.19) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.19) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.19) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.19) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.19) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.19) lib/rails/engine.rb:484:in `call'
+  railties (3.2.19) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.19) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 16:08:45 +0100
+Connecting to database specified by database.yml
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 127.0ms (Views: 68.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:08:46 +0100
+Served asset /articles_controller.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:08:46 +0100
+Served asset /welcome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:08:46 +0100
+Served asset /sage.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:08:46 +0100
+Served asset /jquery.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:08:46 +0100
+Served asset /articles.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:08:46 +0100
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:08:46 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:08:46 +0100
+Served asset /articles.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:08:46 +0100
+Served asset /articles_controller.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:08:46 +0100
+Served asset /sage.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:08:46 +0100
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:08:46 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2014-10-16 16:08:48 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendered articles/show.html.erb within layouts/application (28.0ms)
+Completed 500 Internal Server Error in 36.0ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <p>
+    2:   <strong>Title:</strong>
+    3:   <%= @article.title %>
+    4: </p>
+    5:  
+    6: <p>
+  app/views/articles/show.html.erb:3:in `_app_views_articles_show_html_erb___886969483_26353320'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.19/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (24.0ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2014-10-16 16:09:07 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered articles/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16.0ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:07 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:07 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:07 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:07 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:07 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:07 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:07 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:07 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:07 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:07 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:07 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:08 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/articles/4/edit" for 127.0.0.1 at 2014-10-16 16:09:10 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered articles/_form.html.erb (16.0ms)
+  Rendered articles/edit.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 46.0ms (Views: 43.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:10 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:10 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:10 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:10 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:10 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:10 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:10 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:10 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:10 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:10 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:10 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:10 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/articles/4" for 127.0.0.1 at 2014-10-16 16:09:12 +0100
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XySC+COh8tVCIJ8+/OsfTVKLyHZSIWWanZxamkgG2X0=", "article"=>{"title"=>"article4", "text"=>"text4"}, "commit"=>"Update Article", "id"=>"4"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "articles" SET "text" = 'text4', "updated_at" = '2014-10-16 15:09:12.985053' WHERE "articles"."id" = 4
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/articles/4
+Completed 302 Found in 26.0ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2014-10-16 16:09:13 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered articles/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10.0ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:13 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:13 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:13 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:13 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:13 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:13 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:13 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:13 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:13 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:13 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:13 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:13 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 16:09:15 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 19.0ms (Views: 16.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:15 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:16 +0100
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:16 +0100
+Served asset /articles_controller.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:16 +0100
+Served asset /sage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-16 16:09:16 +0100
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:16 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:16 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:16 +0100
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles_controller.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:16 +0100
+Served asset /articles_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sage.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:16 +0100
+Served asset /sage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:16 +0100
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-16 16:09:16 +0100
+Served asset /application.js - 304 Not Modified (0ms)

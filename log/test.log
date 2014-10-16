@@ -1,0 +1,41 @@
+Connecting to database specified by database.yml
+Started GET "/articles/new" for 127.0.0.1 at 2014-10-16 14:44:30 +0100
+Processing by ArticlesController#new as HTML
+Completed 500 Internal Server Error in 50.0ms
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 14:44:33 +0100
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 2.0ms
+Started GET "/" for 127.0.0.1 at 2014-10-16 14:44:36 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 59.0ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-10-16 14:44:36 +0100
+Warning. Error encountered while saving cache c:/Sites/blog/tmp/cache/sass/2bc451bdedcd894d9d12b1c53e87e4a3b559ffd9/articles.css.scssc: can't dump anonymous class #<Class:0x2a02fd0>
+Compiled articles.css  (36ms)  (pid 3428)
+Warning. Error encountered while saving cache c:/Sites/blog/tmp/cache/sass/2bc451bdedcd894d9d12b1c53e87e4a3b559ffd9/sage.css.scssc: can't dump anonymous class #<Class:0x2a02fd0>
+Compiled sage.css  (1ms)  (pid 3428)
+Warning. Error encountered while saving cache c:/Sites/blog/tmp/cache/sass/2bc451bdedcd894d9d12b1c53e87e4a3b559ffd9/welcome.css.scssc: can't dump anonymous class #<Class:0x2a02fd0>
+Compiled welcome.css  (1ms)  (pid 3428)
+Compiled application.css  (88ms)  (pid 3428)
+Served asset /application.css - 200 OK (120ms)
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-10-16 14:44:36 +0100
+Compiled jquery.js  (3ms)  (pid 3428)
+Compiled jquery_ujs.js  (0ms)  (pid 3428)
+Compiled articles.js  (848ms)  (pid 3428)
+Compiled sage.js  (453ms)  (pid 3428)
+Compiled welcome.js  (424ms)  (pid 3428)
+Compiled application.js  (1878ms)  (pid 3428)
+Served asset /application.js - 200 OK (1941ms)
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 14:44:40 +0100
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1.0ms
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 14:46:06 +0100
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1.0ms
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction

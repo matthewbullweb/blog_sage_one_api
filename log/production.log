@@ -1,0 +1,144 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 14:42:00 +0100
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 33.0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'articles'):
+  app/controllers/articles_controller.rb:4:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 14:42:03 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 43.0ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3: <head>
+    4:   <title>Blog</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__697599979_28595268'
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 14:42:06 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 3.0ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3: <head>
+    4:   <title>Blog</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__697599979_28595268'
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 14:42:11 +0100
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 2.0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'articles'):
+  app/controllers/articles_controller.rb:4:in `index'
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2014-10-16 14:42:18 +0100
+Processing by ArticlesController#new as HTML
+Completed 500 Internal Server Error in 1.0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'articles'):
+  app/controllers/articles_controller.rb:8:in `new'
+  app/controllers/articles_controller.rb:8:in `new'
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2014-10-16 14:42:21 +0100
+Processing by ArticlesController#new as HTML
+Completed 500 Internal Server Error in 1.0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'articles'):
+  app/controllers/articles_controller.rb:8:in `new'
+  app/controllers/articles_controller.rb:8:in `new'
+
+
+Connecting to database specified by database.yml
+Started GET "/articles/new" for 127.0.0.1 at 2014-10-16 14:43:22 +0100
+Processing by ArticlesController#new as HTML
+Completed 500 Internal Server Error in 52.0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'articles'):
+  app/controllers/articles_controller.rb:8:in `new'
+  app/controllers/articles_controller.rb:8:in `new'
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 14:43:29 +0100
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 3.0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'articles'):
+  app/controllers/articles_controller.rb:4:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-16 14:43:38 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 51.0ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3: <head>
+    4:   <title>Blog</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__803208029_28826712'
+
+
+Connecting to database specified by database.yml
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 14:46:49 +0100
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 47.0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'articles'):
+  app/controllers/articles_controller.rb:4:in `index'
+
+
+Connecting to database specified by database.yml
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 14:47:27 +0100
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 88.0ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3: <head>
+    4:   <title>Blog</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__445104833_28917288'
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-16 14:47:33 +0100
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 11.0ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3: <head>
+    4:   <title>Blog</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__445104833_28917288'
+
+
