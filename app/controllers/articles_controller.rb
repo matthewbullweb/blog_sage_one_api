@@ -1,4 +1,5 @@
 class ArticlesController < ApplicationController
+
   def index
    @articles = Article.all
   end
@@ -15,6 +16,9 @@ class ArticlesController < ApplicationController
    else
     render 'new'
    end
+   
+   #render plain: params[:article].inspect
+   #@article = params.inspect
   end
   
   def show
