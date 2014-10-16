@@ -1,0 +1,21 @@
+<h1>Listing articles</h1>
+ 
+<table width="100%" style="text-align:left;">
+  <tr>
+    <th width="25%">Title</th>
+    <th width="25%">Text</th>
+    <th width="25%">Created</th>
+    <th width="25%">Updated</th>
+  </tr>
+ 
+  <% @articles.each do |article| %>
+    <tr>
+      <td><%= article.title %></td>
+      <td><%= article.text %></td>
+      <td><%= article.created_at %></td>
+      <td><%= article.updated_at %></td>
+    </tr>
+  <% end %>
+</table>
+
+<%= link_to 'New article', new_article_path %>
